@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel=stylesheet href="school.css"></link>
+<script type="text/javascript">
+var slideimages = new Array() // create new array to preload images
+slideimages[0] = new Image() // create new instance of image object
+slideimages[0].src= "image-1.jpg" // set image src property to image path, preloading image in the process
+slideimages[1] = new Image()
+slideimages[1].src = "image-4.jpg"
+slideimages[2] = new Image()
+slideimages[2].src = "image-6.jpg"
+var slideText=new Array()
+slideText[0]="first pic"
+slideText[1]="second pic"
+slideText[2]="third pic"
+</script>
+<head>
+<title>Einstein Public School</title>	
+</head>
+<body>
+<section id="whole">
+
+<section id="top">
+	<div id="logo_sec"><img id="logo" src="sqpurple.png" alt="logo"></img></div>
+	<div id ="intro">
+		<article id="motto"><i>"Quality Education is our motto"</i></article>
+		<article id="name">Einstein Public School</article>
+		<article id="addr">South of SankatMochan Temple,Janakpurdham-09,Nepal</article>
+	</div>
+</section>
+
+<nav id="menu">
+<ul id="menuul">
+<li class="toplink"><a href="#top">Home</a></li>
+<li class="toplink"><a href="#team">Our team</a></li>
+<li class="toplink"><a href="#slc">SLC Results</a></li>
+<li class="toplink"><a href="#admission">Admission</a></li>
+<li class="toplink"><a href="#contact">Contact us</a></li>
+<li class="toplink"><a href="#login">Login</a></li>
+<li id="searchBox"><form><input align="right" id="query" type="text" size=35 height="50px" placeholder="Search here">
+<button type="submit" id="search">go</button></form></li> 
+</ul>
+</nav>
+
+
+<!nav id="redun"><!/nav>
+
+<section id="photo">
+	<a name="top"></a>
+<img src="image-1.jpg" width="100%" height="500px" id="slide"></img>
+<h5 id="caption">first pic</h5>
+<button type="submit" id="btnl" onclick="slideDelay(-1)"><img alt="<" src="btnl.png"  width= "20px"></img></button>
+<button type="submit" id="btnr" onclick="slideDelay(1)"><img src="btnr.png" alt=">" width= "20px"></img></button>
+</section>
+<section id="content">
+<section id="content-2">
+<header id="topics"><h1>Overview</h1></header>
+ Einstein Public School(often reffered as EPS) was established in 2062 B.S.(2005 A.D.) with aim to nurture the young minds to bring the best out of them.We stand for academic accomplishment and provide an environment that fosters academic achievement.Student requirement and academic support go hand in hand. The School has a state-of-the-art teaching team.This educational establishment is managed by a devoted team of professionals advised by outstanding advisors.We challenge, empower, and prepare all for success.We serve all stakeholders by building the intellect and ethics of our students so they may be productive members of society.We Support student thinking and help them to communicate with clarity & precision in order to instill an intrinsic desire for life-long learning.We strive to provide EDUCATION FOR THE FUTURE in order to fulfill the aspirations of our students through qualitative education.<br>
+</section>
+
+<section id="news">
+
+	<h1>News and Announcement</h1>
+<article>
+<ul>
+	<li>First Term Exam 2073B.S.(2016)</li>
+</ul>
+</article>
+</section>
+</section>
+
+
+
+<section id="content">
+<header id="topics"><h1>Salient Features</h1></header>	
+<section id="team-1"><img id="facimage" src="image-1.jpg"></img><br><img src="image-1.jpg" id="facimage"></img></section>
+<section id="team-r">
+<div id="team-2"><img id="facimage" src="image-4.jpg"></img><br><img id="facimage" src="image-4.jpg"></img></div>
+<div id="team-3"><img src="image-6.jpg" id="facimage"></img><br><img id="facimage" src="image-6.jpg"></img></div>
+</section>
+</section>
+
+
+
+<section id="content">
+		<a name="team"> </a>
+<header id="topics"><h1>Our team</h1></header>
+ We have an outstanding teaching team composed up of the best teachers in Janakpur with ample teaching experience.
+
+
+
+
+ <section id="table">
+ 	<section id="team-1">
+<table class="team" width="90%" >
+
+<tr>
+<th>Adminstration</th></tr>
+<tr>
+	<td>Mrs. Prem Lata Kumari</td></tr>
+	<tr><td>Mr. Laxmeshwar Yadav</td></tr>
+	<tr><td>Mr. Arvind Yadav</td></tr>
+</table>
+</section>
+<section id="team-r">
+	<section id="team-2">
+<table class="team" width="90%">
+
+<tr><th>Maths</th></tr>
+	<tr><td>Mr. Bishnudev Yadav</td></tr>
+	<tr><td>Mr. Raj Kumar Mahaseth</td></tr>
+	<tr><td>Mr. Dinesh Pandey</td></tr>
+	<tr><td>Mr. Ghuran Yadav<td></tr>
+</table>
+</section>
+<section id="team-3" >
+<table class="team" width="90%">
+
+<tr><th>Science</th></tr>
+<tr><td>Mr. B.C. Shukla </td></tr>
+<tr><td>Mr. Bikram Mandal</td></tr>
+<tr><td>Mr. Bijendra Patel</td></tr>
+<tr><td>Mr. Shiv Chandra Das</td></tr>
+
+
+</table>
+</section>
+</section>
+</section>
+
+<br>
+
+
+<section id="table">
+ 	<section id="team-1">
+<table class="team" width="90%" >
+
+<tr><th>English</th></tr>
+<tr><td>Mr. Bikram Yadav</td></tr>
+<tr><td>Mr. Kali Charan Chaudary</td></tr>
+<tr><td>Mr. Jagarnath Thakur</td></tr>
+<tr><td>Mr. Saroj Yadav</td></tr>
+
+	
+</table>
+</section>
+<section id="team-r">
+	<section id="team-2">
+<table class="team" width="90%">
+	<tr>
+<th>Nepali</th></tr>
+<tr>
+	<td>Mr. Shivnandan Yadav</td></tr>
+	<tr><td>Mr. Surya Narayan Mandal</td></tr>
+	<tr><td>Mr. Durgesh Mukhiya</td></tr>
+</table>
+</section>
+<section id="team-3" >
+<table class="team" width="90%">
+
+
+<tr><th>Social Studies</th></tr>
+<tr><td>Mr. Kali Charan Chaudary</td></tr>
+<tr><td>Mr. Ram Sagar Pal</td></tr>
+</table>
+</section>
+</section>
+</section>
+
+
+
+<section id="table">
+ 	<section id="team-1">
+<table class="team" width="90%" >
+	<tr><th>Computer Science</th></tr>
+<tr><td>Mr. Manoj Bharti</td></tr>
+<tr><td>Mr. Abhinash Jha</td></tr>
+</table>
+</section>
+<section id="team-r">
+	<section id="team-2">
+<table class="team" width="90%">
+<tr><th>Environment,Population&Health</th></tr>
+<tr><td>Mr. Jagarnath Thakur</td></tr>
+</table>
+</section>
+<section id="team-3" >
+<table class="team" width="90%">
+<tr><th></th></tr>
+<tr><td>Mr. Manoj Bharti</td></tr>
+<tr><td>Mr. Abhinash Jha</td></tr>
+</table>
+</section>
+</section>
+</section>
+
+
+
+</section>
+
+
+<section id="content">
+<header>
+<section id="topics"><h1>Admissions</h1></section>
+<a name="admission"></a>
+</header>
+ We have limited number of seats for each class and admit new students in classes from Nursery to 9.The new admissions are done in the first week of Baishakh(3rd week of May) after an entrance test.You can contact us during the office hours for further queries about admissions.
+ 			<br>
+
+  Upon the successful application of the students, the following documents need to be submitted in the office for admission:
+  <div id="doclist">
+  <ul id="midUL">
+    <li>The Application form including the signature of the Guardian</li>
+    <li>The Original Transfer Certificate from the school last attended</li>
+    <li>Two copies of passport size photographs</li>
+    <li>Passport size photograph of each parent and/or guardian</li>
+    <li>The Photocopy of mark-sheet of the student from the previous school</li>
+    <li>Additional certificates(if any) that notify the student's additional expertise</li>
+</ul>
+</div>
+
+</section>
+
+
+
+<article id="content">
+<header>
+<section id="topics"><h1>Contact us</h1></section>
+</header>
+<a name="contact"></a>
+ <u>Contact Information:</u><br>
+ Tel:+977-41-521039<br>
+ Mobile:+977-9854021677<br>
+ E-mail:
+ <br>
+ <br>
+ <u>Directions:</u><br>
+ The school building is the first one to the south of the Sankatmochan Temple which lies near the north-west corner of the Barabigha ground. 
+
+</article>
+
+<div id="bottom">
+Site developed by Satyam Yadav,B.Tech ECE(2nd Year),IIT Roorkee <br>E-mail:satyamyadav5141@gmail.com
+</section>
+</body>
+<script src="school.js"></script>
+</html>
